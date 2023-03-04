@@ -12,8 +12,9 @@ import javax.persistence.Column;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Post {
-    private String id;
-    private String userId;
+    private int id;
+    private int userId;
     private String post;
     private String image;
+    private String imageName;
 }
